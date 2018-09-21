@@ -2,7 +2,6 @@
 # Dockerfile that builds a Squad Gameserver
 ############################################################
 FROM cm2network/steamcmd
-LABEL maintainer="chris@grimtech.net"
 
 # Run Steamcmd and install Squad
 RUN ./home/steam/steamcmd/steamcmd.sh +login anonymous \
